@@ -1,0 +1,9 @@
+Single Responsibility Principle (SRP): Each method now has a specific responsibility (adding, deleting, updating, or listing users).
+
+Prepared Statements: Replaced the raw SQL queries with prepared statements to prevent SQL injection.
+
+Switch Statement: Centralized operation management using a handleUserOperation method to improve readability.
+
+Error Handling: Added error handling with meaningful feedback for each database operation.
+
+Code Formatting: Consistent spacing and indentation improve readability.
